@@ -55,7 +55,7 @@ movel.addEventListener("mouseenter", () =>{
         names.innerHTML = "OK, VOCÊ VENCEU"
         fixo.classList.add("grande")
         div.appendChild(clonado).style.display = 'none'
-        movel.appendChild(clonado).style.display = 'none'
+        movel.style.display = "none"
       break
     }
   }
