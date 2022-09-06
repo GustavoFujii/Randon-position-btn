@@ -9,7 +9,6 @@ body{
 }
 h1{
   color: #fff;
-  text-transform: uppercase;
   text-align: center;
   margin-bottom: 0;
 }
@@ -63,4 +62,9 @@ img{
 }
 .overlay-active{
   width: 100%;
+}
+.grande#fixo{
+  width: 300px;
+  height: 300px;
+  left: 50%;
 }
