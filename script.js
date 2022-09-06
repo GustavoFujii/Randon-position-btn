@@ -44,14 +44,14 @@ movel.addEventListener("mouseenter", () =>{
           names.innerHTML = "O CARLOS É BROXA?????"
         }, 1000)
       break;
-      case 15:
+      case 11:
         div.appendChild(clonado).style.left = `${randomhv}px`
         div.appendChild(clonado).style.top = `${randomhv}px`
       break
-      case 18:
+      case 15:
         names.innerHTML = "Como assim não :("
       break
-      case 22:
+      case 19:
         names.innerHTML = "OK, VOCÊ VENCEU"
         fixo.classList.add("grande")
         div.appendChild(clonado).style.display = 'none'
