@@ -15,7 +15,6 @@ movel.addEventListener("mouseenter", () =>{
   // parametro de contagem
   num++
   function cont(){
-    
     // if(num == 4){
     //   names.innerHTML = "O CARLOS, não é broxa??" 
     // }else if(num == 7){
@@ -56,6 +55,7 @@ movel.addEventListener("mouseenter", () =>{
         names.innerHTML = "OK, VOCÊ VENCEU"
         fixo.classList.add("grande")
         div.appendChild(clonado).style.display = 'none'
+        movel.appendChild(clonado).style.display = 'none'
       break
     }
   }
