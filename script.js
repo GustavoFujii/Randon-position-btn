@@ -1,7 +1,7 @@
 let movel = document.getElementById("movel")
 let fixo = document.getElementById("fixo")
 let names = document.getElementById("name")
-var num = 0
+let num = 0
 let div = document.getElementById("box")
 var clonado = fixo.cloneNode(true)
 
@@ -15,6 +15,7 @@ movel.addEventListener("mouseenter", () =>{
   // parametro de contagem
   num++
   function cont(){
+
     // if(num == 4){
     //   names.innerHTML = "O CARLOS, não é broxa??" 
     // }else if(num == 7){
